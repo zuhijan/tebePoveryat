@@ -1,0 +1,206 @@
+@import url('./normalize.css');
+@font-face {
+    src: url('./fonts/Roboto/Roboto-Regular.ttf');
+    font-family: 'Roboto';
+}
+@font-face {
+    src: url('./fonts/Yanone_Kaffeesatz/YanoneKaffeesatz-Regular.ttf');
+    font-family: 'Yanone_Kaffeesat';
+}
+
+.page {
+    max-width: 1440px;
+    margin: 0 auto;
+    /* outline: 1px solid red; */
+}
+.main {
+    margin: 0 auto;
+}
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 34px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    background-color: #FFFFFF;
+    margin: 0 auto;
+    
+}
+.header__link {
+    text-align: center;
+    font-size: 15px;
+    line-height: 18px;
+    color: #303030;
+    font-family: 'Roboto';
+}
+.header__button {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 0.06em;
+    color: #FF8B02;
+    background: none;
+    border: none;    
+    padding: 14px;
+}
+.intro {
+    padding-top: 84px;  
+    padding-bottom: 88px;
+    background-color: #f4f4f4;  
+    margin: 0 auto;
+    font-family: 'Yanone_Kaffeesat';
+    
+}
+.intro__title { 
+    margin: 0; 
+    margin-top: 7px;    /* для PP*/
+    font-style: normal;
+    font-weight: normal;
+    font-size: 64px;
+    line-height: 76px;
+    text-align: center;
+    padding-bottom: 71px;
+}
+.intro__text {  
+    max-width: 1130px;  
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 30px;
+    letter-spacing: 0.07em;
+    margin: 0 auto;
+    color: #2D2D2D;
+}
+/* извращение с отступами, у параграфов. как можно грамотнее сделать? */
+.intro__text_margin {
+    margin-top: 25px;
+    margin-bottom: 50px;
+}
+.intro__text_margin_list {
+    /* max-width: 600px; */
+    margin-top: 12px;
+    text-align: left;    
+}
+.intro__text_margin_end {
+    margin-top: 38px
+}
+/* конец извращений */
+
+.donation {
+    padding-top: 75px;
+    padding-bottom: 108px;
+   /*  background-color: red;   */
+}
+.donation__container {
+    max-width: 1130px;
+    display:flex;
+    justify-content: space-between;
+    margin: 0 auto;
+
+}
+.donation__image {
+    box-shadow: 4px 4px 30px rgba(0, 0, 0, 0.25);
+}
+.donation__patreon {
+    max-width: 439px;
+}
+.donation__title { 
+    font-family: 'Yanone_Kaffeesat';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height:  36px;
+    letter-spacing: 0.06em;
+    margin: 0;
+    padding-bottom: 18px;
+}
+.donation__button {
+    font-family: 'Roboto'; 
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;    
+    letter-spacing: 0.06em;    
+    color: #FBFBFB;
+    background: #E7820C;
+    border: 2px solid #E7820C;
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding: 10px;
+    
+}
+.donation__text { 
+    margin-top: 16px;
+    font-family: 'Roboto';   
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 26px;
+    letter-spacing: 0.06em;
+}
+.donation__description {
+    font-family: 'Yanone_Kaffeesat';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height:  36px;
+    letter-spacing: 0.06em;
+    text-align: center;
+    margin: 0;
+    padding-top: 68px;
+    
+}
+.footer {
+    padding: 71px 155px 85px;
+    
+    background-color: #303030;
+    font-family: 'Yanone_Kaffeesat';
+    
+}
+.footer__container {
+    width: 50%;
+    height: 186px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    margin-bottom: 29px;
+}
+.footer__text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 0.06em;
+    color: #FBFBFB;
+    padding-bottom: 17px;
+}
+.footer__link {
+    color: #FBFBFB;    
+}
+.footer___image{
+    margin-left: 30px; 
+}
+.footer__sublink {    
+    color: #616161;
+    font-family: 'Roboto';  
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height:  27px;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-decoration-line: underline;
+}
+.text_color-orange{
+    color: #FF8B02;
+}
+.text_color-grey{
+    color: #616161;
+}
+
+.text-decoration-line {
+    text-decoration-line: underline;  
+}
