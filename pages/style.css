@@ -1,4 +1,4 @@
-@import url('./normalize.css');
+@import url('./vendor/normalize.css');
 @font-face {
     src: url('./fonts/Roboto/Roboto-Regular.ttf');
     font-family: 'Roboto';
@@ -10,8 +10,7 @@
 
 .page {
     max-width: 1440px;
-    margin: 0 auto;
-    /* outline: 1px solid red; */
+    margin: 0 auto;   
 }
 .main {
     margin: 0 auto;
@@ -56,7 +55,7 @@
 }
 .intro__title { 
     margin: 0; 
-    margin-top: 7px;    /* для PP*/
+    margin-top: 7px;    
     font-style: normal;
     font-weight: normal;
     font-size: 64px;
@@ -79,8 +78,7 @@
     margin-top: 25px;
     margin-bottom: 50px;
 }
-.intro__text_margin_list {
-    /* max-width: 600px; */
+.intro__text_margin_list {    
     margin-top: 12px;
     text-align: left;    
 }
@@ -92,7 +90,6 @@
 .donation {
     padding-top: 75px;
     padding-bottom: 108px;
-   /*  background-color: red;   */
 }
 .donation__container {
     max-width: 1130px;
