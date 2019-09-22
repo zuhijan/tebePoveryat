@@ -1,17 +1,16 @@
-@import url('./normalize.css');
+@import url('../vendor/normalize.css');
 @font-face {
-    src: url('./fonts/Roboto/Roboto-Regular.ttf');
+    src: url('../fonts/Roboto/Roboto-Regular.ttf');
     font-family: 'Roboto';
 }
 @font-face {
-    src: url('./fonts/Yanone_Kaffeesatz/YanoneKaffeesatz-Regular.ttf');
+    src: url('../fonts/Yanone_Kaffeesatz/YanoneKaffeesatz-Regular.ttf');
     font-family: 'Yanone_Kaffeesat';
 }
 
 .page {
     max-width: 1440px;
-    margin: 0 auto;
-    /* outline: 1px solid red; */
+    margin: 0 auto;   
 }
 .main {
     margin: 0 auto;
@@ -45,6 +44,7 @@
     background: none;
     border: none;    
     padding: 14px;
+    outline: none;
 }
 .intro {
     padding-top: 84px;  
@@ -56,13 +56,13 @@
 }
 .intro__title { 
     margin: 0; 
-    margin-top: 7px;    /* для PP*/
+    margin-top: 7px;    
     font-style: normal;
     font-weight: normal;
     font-size: 64px;
     line-height: 76px;
     text-align: center;
-    padding-bottom: 71px;
+    padding-bottom: 60px;
 }
 .intro__text {  
     max-width: 1130px;  
@@ -73,26 +73,19 @@
     letter-spacing: 0.07em;
     margin: 0 auto;
     color: #2D2D2D;
+    margin-top: 12px;
+    
 }
-/* извращение с отступами, у параграфов. как можно грамотнее сделать? */
-.intro__text_margin {
+.intro__text:nth-child(3) {
     margin-top: 25px;
     margin-bottom: 50px;
 }
-.intro__text_margin_list {
-    /* max-width: 600px; */
-    margin-top: 12px;
-    text-align: left;    
-}
-.intro__text_margin_end {
+.intro__text:last-child {
     margin-top: 38px
 }
-/* конец извращений */
-
 .donation {
     padding-top: 75px;
     padding-bottom: 108px;
-   /*  background-color: red;   */
 }
 .donation__container {
     max-width: 1130px;
@@ -130,6 +123,7 @@
     box-sizing: border-box;
     border-radius: 5px;
     padding: 10px;
+    outline: none;
     
 }
 .donation__text { 
@@ -138,7 +132,7 @@
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
-    line-height: 26px;
+    line-height: 24px;
     letter-spacing: 0.06em;
 }
 .donation__description {
@@ -150,7 +144,7 @@
     letter-spacing: 0.06em;
     text-align: center;
     margin: 0;
-    padding-top: 68px;
+    padding-top: 84px;
     
 }
 .footer {
