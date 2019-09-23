@@ -45,6 +45,7 @@
     border: none;    
     padding: 14px;
     outline: none;
+    cursor:pointer;
 }
 .intro {
     padding-top: 84px;  
@@ -124,6 +125,7 @@
     border-radius: 5px;
     padding: 10px;
     outline: none;
+    cursor:pointer;
     
 }
 .donation__text { 
