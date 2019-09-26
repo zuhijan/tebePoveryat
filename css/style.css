@@ -7,10 +7,14 @@
     src: url('../fonts/Yanone_Kaffeesatz/YanoneKaffeesatz-Regular.ttf');
     font-family: 'Yanone_Kaffeesat';
 }
+html {
+    scroll-behavior: smooth; 
+}
 
 .page {
     max-width: 1440px;
     margin: 0 auto;   
+
 }
 .main {
     margin: 0 auto;
@@ -32,6 +36,12 @@
     line-height: 18px;
     color: #303030;
     font-family: 'Roboto';
+    box-sizing: border-box;
+    border-bottom: 2px solid transparent;    
+    transition: border-bottom  ease-in ;
+}
+.header__link:hover {    
+    border-bottom: 2px solid #FF8B02;
 }
 .header__button {
     font-family: 'Roboto';
@@ -41,11 +51,8 @@
     line-height: 27px;
     letter-spacing: 0.06em;
     color: #FF8B02;
-    background: none;
-    border: none;    
     padding: 14px;
-    outline: none;
-    cursor:pointer;
+    
 }
 .intro {
     padding-top: 84px;  
@@ -175,9 +182,14 @@
 }
 .footer__link {
     color: #FBFBFB;    
+    scroll-behavior: smooth;
 }
 .footer___image{
     margin-left: 30px; 
+    transition: transform 1s ease-in-out;
+}
+.footer___image:hover{ 
+    transform: translate(0, -15px)
 }
 .footer__sublink {    
     color: #616161;
@@ -188,7 +200,7 @@
     line-height:  27px;
     text-align: center;
     letter-spacing: 0.06em;
-    text-decoration-line: underline;
+    
 }
 .text_color-orange{
     color: #FF8B02;
@@ -199,4 +211,8 @@
 
 .text-decoration-line {
     text-decoration-line: underline;  
+}
+
+.text-decoration-line:hover {
+    text-decoration-line: none;  
 }
