@@ -1,5 +1,4 @@
 @import url('../vendor/normalize.css');
-/* @import url('./media.css'); */
 @font-face {
     src: url('../fonts/Roboto/Roboto-Regular.ttf');
     font-family: 'Roboto';
@@ -14,7 +13,7 @@ html {
 
 .page {
     max-width: 1440px;
-    margin: 0 auto;      
+    margin: 0 auto;     
 
 }
 .main {
@@ -272,11 +271,6 @@ html {
         top: 20px;
         left: 20px;
     }
-   /*  .header__mobile_open {
-         
-        display: none; 
-     } */
-
     .header__container {        
         position: fixed;
         top: 0;
